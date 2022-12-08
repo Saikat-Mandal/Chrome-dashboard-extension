@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: no-repeat center center fixed;
+  text-shadow: 0px 0px 20px #aaaaaa;
+  background-size: cover;
+  color: white;
+}
+main {
+  padding: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.f-container {
+  justify-content: space-between;
+  display: flex;
+}
+
+.time {
+  text-align: center;
+  margin-bottom: 10rem;
+  font-size: 5rem;
+}
+.up {
+  display: flex;
+  align-items: center;
+}
+.up img {
+  transform: scale(0.8);
+}
+.up-para {
+  margin-left: -0.5rem;
+  font-size: 1.5rem;
+}
+.down {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.crypto-top {
+  display: flex;
+  align-items: center;
+}
+.crypto-top span {
+  margin-left: 1rem;
+}
+.loca {
+  font-size: 1.2rem;
+}
+crypto p {
+  margin: 0;
+}

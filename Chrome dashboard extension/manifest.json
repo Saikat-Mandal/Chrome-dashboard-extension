@@ -1,0 +1,14 @@
+{
+
+    "manifest_version": 3,
+    "name": "My Extension",
+    "version": "1.0.0",
+    "description": "Chrome-dashboard",
+    "action":{
+        "default_icon":"icon.png"
+    },
+    "chrome_url_overrides":{
+        "newtab" : "index.html"
+    }
+
+}
